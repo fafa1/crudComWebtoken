@@ -1,0 +1,20 @@
+O mongoose traduz os dados do banco de dados para objetos javascript para ser utilizados na aplicação
+MongoCliente uma formar de se conectar com o mongo
+
+Controller de autenticação - onde sera definido as rotas para poder se registrar e autenticar dentor do sistema
+
+mexer em rota logo irei usar o express
+
+passei o app que esta localizado num determinado arquivo para ser usado em outro para não ter a necessidade
+definir novamente o app no outro arquivo
+exp:
+    require('./path..')(app)
+
+    noutro arquivo:
+    module.export = app => app.use('/rota')
+
+    ver qual a necessidade disso?
+
+tratar promise com o async await
+Sempre que estiver trabalhando com uma funçao que retorna um promise eu posso usar o await e ela só
+vai para o proximo passo se ela for resolvida ou ter dado erro (em vez de usar o then uso o await)
